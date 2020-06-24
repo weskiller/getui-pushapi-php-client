@@ -11,6 +11,15 @@
         }
     ],
     "autoload": {
-        "classmap": [""]
+        "psr-4": {
+            "GetuiLaboratory\\GetuiPushAPICLIENT": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "ext-http": "*",
+        "ext-curl": "*",
+        "ext-zlib": "*"
     }
 }
